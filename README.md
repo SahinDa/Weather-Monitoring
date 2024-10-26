@@ -56,15 +56,15 @@ api_key=YOUR_OPENWEATHER_API_KEY
 ## 4. Navigate to the front-end directory and open index.html in a web browser or use a local server to serve the HTML file.
 
 ## Running the Back-end
-## 1.In the backend directory, start the server:
+- 1.In the backend directory, start the server:
 
 ```bash
 node server.js
 ```
-## 2.The server will run on http://localhost:3000.
+- 2.The server will run on http://localhost:3000.
 
 ## Running the Front-end
-## 1.Open index.html in a web browser. Make sure the back-end server is running to fetch data.
+- 1.Open index.html in a web browser. Make sure the back-end server is running to fetch data.
 
 ## File Descriptions
 - backend/.env: Contains sensitive environment variables, such as the OpenWeather API key.
