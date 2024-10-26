@@ -42,3 +42,15 @@ The **Weather Monitoring Dashboard** is a real-time application that displays we
    git clone <repository-url>
    cd weather-monitoring-dashboard
 ```
+
+
+### File Descriptions
+- backend/.env: Contains sensitive environment variables, such as the OpenWeather API key.
+- backend/alerts.js: Contains logic to check for weather alerts based on temperature thresholds.
+- backend/config.js: Holds configuration settings such as API key, cities to monitor, and alert thresholds.
+- backend/fetchWeather.js: Fetches weather data from the OpenWeather API for the specified cities.
+- backend/processData.js: Processes the raw weather data and converts temperatures from Kelvin to Celsius.
+- backend/server.js: Sets up the Express server, defines API routes for fetching weather summary, historical trends, and alerts.
+- frontend/index.html: The main HTML file that structures the dashboard layout.
+- frontend/style.css: Styles the dashboard for better presentation.
+- frontend/app.js: JavaScript code that fetches weather data from the back-end and updates the dashboard.
