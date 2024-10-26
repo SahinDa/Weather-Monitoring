@@ -14,7 +14,21 @@ The **Weather Monitoring Dashboard** is a real-time application that displays we
 - **Back-end**: Node.js, Express, Axios
 - **API**: OpenWeather API for weather data
 - **Environment Variables**: dotenv for configuration
-
+## File Structure
+```plaintext
+/weather-monitoring-dashboard
+├── backend
+│   ├── .env                  # Environment variables (API key)
+│   ├── alerts.js             # Contains alert checking logic
+│   ├── config.js             # Configuration settings for the app
+│   ├── fetchWeather.js       # Fetches weather data from OpenWeather API
+│   ├── processData.js        # Processes weather data
+│   └── server.js             # Express server setup and API routes
+└── frontend
+    ├── index.html            # Main HTML file for the dashboard
+    ├── style.css             # Styles for the dashboard
+    └── app.js                # JavaScript for fetching and displaying weather data
+```
 ## Getting Started
 
 ### Prerequisites
