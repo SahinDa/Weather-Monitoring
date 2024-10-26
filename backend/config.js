@@ -6,6 +6,6 @@ module.exports = {
     cities: ['Delhi', 'Mumbai', 'Chennai', 'Bangalore', 'Kolkata', 'Hyderabad'],
     interval: 5 * 60 * 1000, // Fetch interval in milliseconds (5 minutes)
     alertThresholds: {
-        tempMax: 25// Alert if temperature exceeds 25°C
+        tempMax: 35// Alert if temperature exceeds 35°C
     }
 };
