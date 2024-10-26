@@ -42,9 +42,31 @@ The **Weather Monitoring Dashboard** is a real-time application that displays we
    git clone <repository-url>
    cd weather-monitoring-dashboard
 ```
+## 2.Navigate to the back-end directory and install dependencies:
 
+```bash
+cd backend
+npm install
+```
+## 3.Create a .env file in the backend directory with the following content:
+```bash
+makefile
+api_key=YOUR_OPENWEATHER_API_KEY
+```
+## 4. Navigate to the front-end directory and open index.html in a web browser or use a local server to serve the HTML file.
 
-### File Descriptions
+## Running the Back-end
+## 1.In the backend directory, start the server:
+
+```bash
+node server.js
+```
+## 2.The server will run on http://localhost:3000.
+
+## Running the Front-end
+## 1.Open index.html in a web browser. Make sure the back-end server is running to fetch data.
+
+## File Descriptions
 - backend/.env: Contains sensitive environment variables, such as the OpenWeather API key.
 - backend/alerts.js: Contains logic to check for weather alerts based on temperature thresholds.
 - backend/config.js: Holds configuration settings such as API key, cities to monitor, and alert thresholds.
